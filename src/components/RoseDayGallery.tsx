@@ -10,52 +10,52 @@ interface RoseImage {
 // Add your flower images here
 const roseImages: RoseImage[] = [
   {
-    src: '/src/assets/images/flowers/flower1.jpeg',
+    src: '/images/flowers/flower1.jpeg',
     caption: 'The first roses I gave you',
     date: 'Rose Day 2024'
   },
   {
-    src: '/src/assets/images/flowers/flower2.jpeg',
+    src: '/images/flowers/flower2.jpeg',
     caption: 'Every petal holds a memory',
     date: 'February 7, 2024'
   },
   {
-    src: '/src/assets/images/flowers/flower3.jpeg',
+    src: '/images/flowers/flower3.jpeg',
     caption: 'Beautiful flowers for my beautiful love',
     date: ''
   },
   {
-    src: '/src/assets/images/flowers/flower4.jpeg',
+    src: '/images/flowers/flower4.jpeg',
     caption: 'Each rose represents my love for you',
     date: ''
   },
   {
-    src: '/src/assets/images/flowers/flower5.jpeg',
+    src: '/images/flowers/flower5.jpeg',
     caption: 'Blooming with love',
     date: ''
   },
   {
-    src: '/src/assets/images/flowers/flower6.jpeg',
+    src: '/images/flowers/flower6.jpeg',
     caption: 'A bouquet of memories',
     date: ''
   },
   {
-    src: '/src/assets/images/flowers/flower7.jpeg',
+    src: '/images/flowers/flower7.jpeg',
     caption: 'Forever in bloom',
     date: ''
   },
   {
-    src: '/src/assets/images/flowers/flower8.jpeg',
+    src: '/images/flowers/flower8.jpeg',
     caption: 'Roses as beautiful as you',
     date: ''
   },
   {
-    src: '/src/assets/images/flowers/flower9.jpeg',
+    src: '/images/flowers/flower9.jpeg',
     caption: 'Every flower tells our story',
     date: ''
   },
   {
-    src: '/src/assets/images/flowers/flower10.jpeg',
+    src: '/images/flowers/flower10.jpeg',
     caption: 'My love for you grows like these flowers',
     date: ''
   },

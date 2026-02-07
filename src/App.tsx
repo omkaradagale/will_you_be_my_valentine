@@ -1,4 +1,5 @@
 import { useState, useRef } from 'react';
+import PasswordScreen from './components/PasswordScreen';
 import SurpriseBox from './components/SurpriseBox';
 import JourneyTimeline from './components/JourneyTimeline';
 import RoseDayGallery from './components/RoseDayGallery';
@@ -9,8 +10,13 @@ import Footer from './components/Footer';
 import './App.css';
 
 function App() {
+  const [isUnlocked, setIsUnlocked] = useState(false);
   const [showContent, setShowContent] = useState(false);
   const timelineRef = useRef<HTMLDivElement>(null);
+
+  const handleUnlock = () => {
+    setIsUnlocked(true);
+  };
 
   const handleBoxOpen = () => {
     setShowContent(true);
@@ -18,6 +24,10 @@ function App() {
       timelineRef.current?.scrollIntoView({ behavior: 'smooth' });
     }, 100);
   };
+
+  if (!isUnlocked) {
+    return <PasswordScreen onCorrectPassword={handleUnlock} />;
+  }
 
   return (
     <div className="app">

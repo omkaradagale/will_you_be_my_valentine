@@ -8,13 +8,13 @@ interface GalleryImage {
 
 // Traditional photos
 const traditionalPhotos: GalleryImage[] = Array.from({ length: 27 }, (_, i) => ({
-  src: `/src/assets/images/prewedding/traditional/img (${i + 1}).jpeg`,
+  src: `/images/prewedding/traditional/img (${i + 1}).jpeg`,
   category: 'traditional'
 }));
 
 // Bike photos
 const bikePhotos: GalleryImage[] = Array.from({ length: 10 }, (_, i) => ({
-  src: `/src/assets/images/prewedding/bikephotos/img (${i + 1}).jpeg`,
+  src: `/images/prewedding/bikephotos/img (${i + 1}).jpeg`,
   category: 'bike'
 }));
 

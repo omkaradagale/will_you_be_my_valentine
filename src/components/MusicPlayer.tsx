@@ -32,7 +32,7 @@ const MusicPlayer = () => {
   return (
     <>
       <audio ref={audioRef} loop>
-        <source src="/src/assets/music/Edd_Sheeran_-_Perfect_(mp3.pm).mp3" type="audio/mpeg" />
+        <source src="/Edd_Sheeran_-_Perfect_(mp3.pm).mp3" type="audio/mpeg" />
       </audio>
 
       {showPrompt && !isPlaying && (
